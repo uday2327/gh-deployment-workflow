@@ -5,6 +5,7 @@ on:
     branches: ["main"]
     paths:
       - "index.html"
+      - "styles.css"
 
 permissions:
   contents: read
@@ -29,7 +30,7 @@ jobs:
       - name: Setup GitHub Pages
         uses: actions/configure-pages@v4
 
-      - name: Upload site artifact (v4)
+      - name: Upload site artifact
         uses: actions/upload-pages-artifact@v4
         with:
           path: .
