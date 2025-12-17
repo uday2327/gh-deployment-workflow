@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f4f6f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+.header {
+    background: #24292e;
+    color: white;
+    padding: 30px 15px;
+    text-align: center;
+}
+
+.header h1 {
+    margin-bottom: 10px;
+}
+
+/* Sections */
+section {
+    background: white;
+    max-width: 900px;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    margin-bottom: 15px;
+    color: #24292e;
+}
+
+/* Status */
+.success {
+    color: green;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Tech List */
+.tech ul {
+    padding-left: 20px;
+}
+
+.tech li {
+    margin-bottom: 8px;
+}
+
+/* Flow */
+.flow-box {
+    text-align: center;
+    font-weight: bold;
+}
+
+.flow-box span {
+    display: block;
+    margin: 8px 0;
+    font-size: 20px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #24292e;
+    color: white;
+    margin-top: 40px;
+}
