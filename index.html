@@ -3,77 +3,150 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CI/CD Project – GitHub Actions & Pages</title>
+    <title>Git & GitHub Project – Version Control and Automation</title>
 
-    <link rel="stylesheet" href="styles.css" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-color: #f4f6f8;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #24292e;
+            color: white;
+            padding: 30px 15px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+        }
+
+        section {
+            background: white;
+            max-width: 900px;
+            margin: 25px auto;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            margin-bottom: 15px;
+            color: #24292e;
+        }
+
+        .success {
+            color: green;
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 8px;
+        }
+
+        .flow-box {
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .flow-box span {
+            display: block;
+            margin: 8px 0;
+            font-size: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #24292e;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
 </head>
+
 <body>
 
-    <header class="header">
-        <h1>🚀 CI/CD Pipeline Project</h1>
-        <p>Automated Deployment using GitHub Actions & GitHub Pages</p>
+    <header>
+        <h1>🔧 Git & GitHub Project</h1>
+        <p>Version Control, Branching, Merging & Automated Deployment</p>
     </header>
 
-    <section class="status">
+    <section>
         <h2>✅ Project Status</h2>
-        <p class="success">PROJECT SUCCESSFULLY DEPLOYED</p>
+        <p class="success">PROJECT SUCCESSFULLY COMPLETED</p>
         <p>
-            Any change pushed to <strong>index.html</strong> automatically triggers
-            the CI/CD pipeline and updates this website.
+            Any change pushed to this file automatically triggers the deployment
+            workflow and updates the live website.
         </p>
     </section>
 
-    <section class="about">
+    <section>
         <h2>📌 Project Overview</h2>
         <p>
-            This project demonstrates a complete <strong>CI/CD (Continuous Integration
-            and Continuous Deployment)</strong> pipeline using <strong>GitHub Actions</strong>.
-            The website is automatically deployed to <strong>GitHub Pages</strong>
-            whenever the source code is updated.
+            This project demonstrates practical usage of <strong>Git</strong> and
+            <strong>GitHub</strong>, including repository management, branching,
+            merging, and conflict resolution. It also shows automated deployment
+            using <strong>GitHub Actions</strong> and <strong>GitHub Pages</strong>.
         </p>
     </section>
 
-    <section class="tech">
-        <h2>🛠️ Technologies Used</h2>
+    <section>
+        <h2>🛠️ Tools & Technologies</h2>
         <ul>
-            <li>Git & GitHub</li>
-            <li>GitHub Actions (CI/CD)</li>
-            <li>GitHub Pages (Hosting)</li>
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>GitHub Actions</li>
+            <li>GitHub Pages</li>
             <li>HTML & CSS</li>
             <li>YAML Workflow</li>
         </ul>
     </section>
 
-    <section class="flow">
-        <h2>🔄 CI/CD Architecture Flow</h2>
+    <section>
+        <h2>🔄 Architecture / Workflow</h2>
         <div class="flow-box">
-            <p>Code Change (index.html)</p>
+            <p>Code Change</p>
             <span>⬇</span>
-            <p>Git Commit & Push</p>
+            <p>Git Commit</p>
+            <span>⬇</span>
+            <p>Git Push to GitHub</p>
             <span>⬇</span>
             <p>GitHub Actions Triggered</p>
             <span>⬇</span>
-            <p>Build & Upload Artifacts</p>
-            <span>⬇</span>
-            <p>Deploy to GitHub Pages</p>
+            <p>Build & Deploy</p>
             <span>⬇</span>
             <p>🌐 Live Website Updated</p>
         </div>
     </section>
 
-    <section class="output">
+    <section>
         <h2>🎯 Final Output</h2>
         <p>
-            This page itself is the final output of the project.
-            It proves that the CI/CD pipeline is working correctly
-            and deployments are fully automated.
+            This webpage itself is the final output of the project. It confirms
+            that Git operations and automated deployment are working correctly.
         </p>
     </section>
 
-    <footer class="footer">
+    <footer>
         <p>
             Project by <strong>Uday Dixit</strong> |
-            Powered by <strong>GitHub Actions</strong>
+            Powered by <strong>Git & GitHub</strong>
         </p>
     </footer>
 
