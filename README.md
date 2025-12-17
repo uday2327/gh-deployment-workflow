@@ -101,10 +101,10 @@ The workflow uses the latest v4 GitHub Actions, ensuring stability and security.
 ![Conflict](screenshots/merge_conflit_resolve.png)
 
 ### GitHub Actions Success
-![Actions](screenshots/actions-success.png)
+![Actions](screenshots/actionsdone.png)
 
 ### Live Website
-![Site](screenshots/live-site.png)
+![Site](screenshots/livewebsite.png)
 
 7. Challenges Faced
 
