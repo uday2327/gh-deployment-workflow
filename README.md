@@ -137,4 +137,5 @@ Improved confidence in DevOps fundamentals
 This project successfully demonstrates how CI/CD pipelines automate the deployment process using GitHub Actions and GitHub Pages. By implementing branching strategies, merge conflict resolution, and automated deployment, this project reflects real-world DevOps practices. It provided valuable hands-on experience in version control, automation, and troubleshooting, making it a strong foundation for advanced DevOps and cloud projects.
 
 
+
 URL: https://<uday2327>.github.io/gh-deployment-workflow/
