@@ -1,21 +1,81 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Hello, GitHub Actions!</title>
-  <style>
-    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial; display:flex; align-items:center; justify-content:center; height:100vh; margin:0; background:#f7fafc; color:#111827;}
-    .card { text-align:center; padding:2rem; border-radius:12px; box-shadow:0 6px 18px rgba(13, 27, 62, 0.08); background:white; }
-    h1 { margin:0 0 .5rem 0; }
-    p { margin:0; color:#374151; }
-  </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CI/CD Project – GitHub Actions & Pages</title>
+
+    <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="card">
-    <h1>Hello, finally its LIVE AND IT PUSH FOR ME BUID THORUGH CI?CD(JOKING) GitHub Actions!</h1>
-    <p>Your site was deployed automatically via a GitHub Actions workflow.</p>
-	<p>Final resolved text after merge conflict</p>
-  </div>
+
+    <header class="header">
+        <h1>🚀 CI/CD Pipeline Project</h1>
+        <p>Automated Deployment using GitHub Actions & GitHub Pages</p>
+    </header>
+
+    <section class="status">
+        <h2>✅ Project Status</h2>
+        <p class="success">PROJECT SUCCESSFULLY DEPLOYED</p>
+        <p>
+            Any change pushed to <strong>index.html</strong> automatically triggers
+            the CI/CD pipeline and updates this website.
+        </p>
+    </section>
+
+    <section class="about">
+        <h2>📌 Project Overview</h2>
+        <p>
+            This project demonstrates a complete <strong>CI/CD (Continuous Integration
+            and Continuous Deployment)</strong> pipeline using <strong>GitHub Actions</strong>.
+            The website is automatically deployed to <strong>GitHub Pages</strong>
+            whenever the source code is updated.
+        </p>
+    </section>
+
+    <section class="tech">
+        <h2>🛠️ Technologies Used</h2>
+        <ul>
+            <li>Git & GitHub</li>
+            <li>GitHub Actions (CI/CD)</li>
+            <li>GitHub Pages (Hosting)</li>
+            <li>HTML & CSS</li>
+            <li>YAML Workflow</li>
+        </ul>
+    </section>
+
+    <section class="flow">
+        <h2>🔄 CI/CD Architecture Flow</h2>
+        <div class="flow-box">
+            <p>Code Change (index.html)</p>
+            <span>⬇</span>
+            <p>Git Commit & Push</p>
+            <span>⬇</span>
+            <p>GitHub Actions Triggered</p>
+            <span>⬇</span>
+            <p>Build & Upload Artifacts</p>
+            <span>⬇</span>
+            <p>Deploy to GitHub Pages</p>
+            <span>⬇</span>
+            <p>🌐 Live Website Updated</p>
+        </div>
+    </section>
+
+    <section class="output">
+        <h2>🎯 Final Output</h2>
+        <p>
+            This page itself is the final output of the project.
+            It proves that the CI/CD pipeline is working correctly
+            and deployments are fully automated.
+        </p>
+    </section>
+
+    <footer class="footer">
+        <p>
+            Project by <strong>Uday Dixit</strong> |
+            Powered by <strong>GitHub Actions</strong>
+        </p>
+    </footer>
+
 </body>
 </html>
